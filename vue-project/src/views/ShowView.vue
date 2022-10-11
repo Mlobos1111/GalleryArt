@@ -25,7 +25,7 @@
 <!--             
                             <a href="" class="btn btn-dark">To Favorite!</a>
                             <a href="" class="btn btn-dark">   Buy!     </a> -->
-                            <a href="{{ route('cancelInscription', $event->id)}}"class="btn btn-dark" onclick="return confirm ('Acabas de desinscribirte en el evento {{$event->name}}')">❌</a>
+                            <a href="{{ route('cancelInscription', $event->id)}}" class="btn btn-dark" onclick="return confirm ('Acabas de desinscribirte en el evento {{$event->name}}')">❌</a>
                                 <a href="{{ route('inscribe', $event->id)}}" class="btn btn-dark" onclick="return confirm ('Acabas de inscribirte en el evento {{$event->name}}')">✔️</a>
             
                         </div>
