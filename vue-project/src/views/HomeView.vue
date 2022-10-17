@@ -6,5 +6,6 @@ import CardsComponent from '../components/CardsComponent.vue';
 <template>
   <main>
     <CardsComponent/>
+    
   </main>
 </template>

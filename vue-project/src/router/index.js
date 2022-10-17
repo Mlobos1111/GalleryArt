@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import ShowView from '../views/ShowView.vue'
 import FavoriteView from '../views/FavoriteView.vue'
 import ShopView from '../views/ShopView.vue'
+import FormCreate from '../components/FormCreate.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -34,6 +35,11 @@ const router = createRouter({
       path: '/shop',
       name: 'shop',
       component: ShopView
+    },
+    {
+      path: '/formcreate',
+      name: 'formcreate',
+      component: FormCreate
     },
 
   ]

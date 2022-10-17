@@ -1,12 +1,17 @@
 
 <script setup>
 
+
 </script>
+
 
 <template>
     <div class="container_footer">
-        <h6>Contacto | Politica de privacidad | Novedades.</h6>
         
+        <h6>Contacto | Politica de privacidad | Novedades.</h6>
+
+
+    
     </div>
     
 </template>
